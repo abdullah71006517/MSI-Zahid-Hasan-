@@ -1,0 +1,289 @@
+h1{
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.navbar{
+
+    margin: 50px auto;
+  
+  border-radius: 12px;
+  
+
+  width: 50%;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+ padding: 4px;
+  background-color: white;
+}
+
+.navbar a{
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  
+  border-radius: 5px;
+}
+.navbar a:hover{
+  background-color: black;
+  color: white;
+}
+
+.hero{
+  margin-top: -50px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.profile-section{
+  width: 55%;
+}
+
+.profile-section p{
+  font-size: 20px;
+  margin-top: 20px;
+  color: black;
+}
+
+.button{
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.button button{
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button button:hover{
+  background-color: black;
+  color: white;
+}
+
+.profile_picture{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile_picture img{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
+
+  .profile_picture{
+    justify-content: center;
+    
+  }
+  .social-media{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-media h2{
+  font-size: 20px;
+  margin: 0;
+}
+
+.social-media a{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.social-media img{
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+.social-media a:hover{
+  color: rgb(66, 17, 172);
+}
+.about_section{
+  margin-top: -80px;
+  padding: 25px;
+}
+.about_section h2{
+  margin-top: 40px;
+  font-size: 28px;
+ 
+}
+.drive{
+    margin-top: -80px;
+padding: 25px;
+}
+
+.drive h2{
+
+  font-size: 28px;
+ 
+}
+
+.cards{
+  display: flex;
+  gap: 10px;
+}
+
+.card{
+
+  width:35%;
+ 
+ 
+  border: 2px solid black;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.card h3{
+  font-size: 20px;
+
+}
+
+.card p{
+  font-size: 16px;
+}
+.card:hover{
+  background-color: rgb(53, 182, 182);
+  color: white;
+}
+.projects_section {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.project_cards {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project_card {
+  width: 280px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.project_card:hover {
+  transform: translateY(-6px);
+}
+
+.project_card img {
+  width: 100%;
+  height: 160px;
+
+  border-radius: 10px;
+}
+
+.project_card h3 {
+  margin: 12px 0 6px;
+}
+
+.project_card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.project_buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 8px 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.3s;
+}
+
+.github-btn {
+  background: #24292e;
+  color: white;
+}
+
+.demo-btn {
+  background: #0d6efd;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}   
+.about_section{
+  margin-top: 5px;
+  padding: 5px;
+}
+.drive{
+    margin-top: 5px;}
+
+    .project_card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.gallery {
+    padding: 50px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* GRID DESIGN */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+/* IMAGE STYLE */
+.gallery-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* HOVER EFFECT */
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
