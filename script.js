@@ -29,7 +29,16 @@ document.getElementById('hire_me')?.addEventListener('click', function() {
 // DOWNLOAD CV BUTTON (UPDATED)
 // ============================================
 document.getElementById('download_cv')?.addEventListener('click', function() {
-  alert('🚧 CV Service is Upcoming. Please check back later.');
+  alert('🚧 CV Service is Upcoming. Please check back later.')
+
+const cvUrl = 'CV.pdf';  
+  if (cvUrl) { const link = document.createElement('a'); link.href = cvUrl; link.download = 'Zahid_Hasan_CV.pdf'; 
+              document.body.appendChild(link);
+              link.click(); document.body.removeChild(link); }
+  else
+  { alert('CV file not found. Please add CV.pdf to your repository.'); }
+  
+  
 });
 
 // ============================================
